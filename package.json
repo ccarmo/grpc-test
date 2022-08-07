@@ -1,0 +1,17 @@
+{
+  "name": "grpc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"grpcurl": "util/grpcurl"
+   },
+  "scripts": {
+    "preinstall": "node install.js",
+    "prepack": "(rm -r ./src/util/ || true)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["config.js","install.js"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
